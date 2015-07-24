@@ -72,7 +72,7 @@ public class FetchWeatherTask extends AsyncTask<String, Void, Void> {
             locationId = ContentUris.parseId(insertUri);
 
         }
-
+        locationCursor.close();
         return locationId;
     }
 

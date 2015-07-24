@@ -6,9 +6,6 @@ import android.net.Uri;
 import android.provider.BaseColumns;
 import android.text.format.Time;
 
-/**
- * Created by Chirag on 12-Jul-15.
- */
 public class WeatherContract {
 
 
